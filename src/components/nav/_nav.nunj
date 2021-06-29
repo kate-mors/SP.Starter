@@ -1,0 +1,24 @@
+<nav class="header__nav nav">
+			<button class="nav__toggle">
+			</button>
+			<ul class="nav__list">
+				<li class="nav__item">
+					<a class="nav__link">Women's</a>
+				</li>
+				<li class="nav__item">
+					<a class="nav__link">Men's</a>
+				</li>
+				<li class="nav__item">
+					<a class="nav__link">Home</a>
+				</li>
+				<li class="nav__item">
+					<a class="nav__link">Travel</a>
+				</li>
+				<li class="nav__item">
+					<a class="nav__link">Beauty</a>
+				</li>
+				<li class="nav__item">
+					<a class="nav__link">Sale</a>
+				</li>
+			</ul>
+		</nav>

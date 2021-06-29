@@ -1,0 +1,45 @@
+<div class="checkout__form form">
+	<h3 class="form__title">Billing information</h3>
+
+	<form action="#" method="post" class="form__body">
+		<fieldset class="form__payment">
+			<legend class="visually-hidden invisible-container">Chose your payment method</legend>
+			<input type="radio" class="form__radio-input" name="payment-method" id="credit-card" checked>
+			<label for="credit-card" class="form__radio-label">Pay with Credit Card</label>
+			<input type="radio" class="form__radio-input" name="payment-method" id="paypal">
+			<label for="paypal" class="form__radio-label">
+				<svg class="paypal-logo" aria-label="PayPal logo." width="85" height="23">
+					<use xlink:href="#icon-PayPal"></use>
+				</svg>
+			</label>
+		</fieldset>
+
+		{% include '../../components/cardholder/_cardholder.nunj' %}
+
+		<fieldset class="form__privacy">
+			<legend class="visually-hidden">Please accept our privacy policies</legend>
+			<div class="form__card-info">
+				<input type="checkbox" class="form__checkbox-input" name="card-data" id="card-info" checked>
+				<label for="card-info" class="form__checkbox-label">Save information of this credit card</label>
+			</div>
+			<div class="form__card-privacy">
+				<input type="checkbox" class="form__checkbox-input" name="privacy-policy" id="privacy" required>
+				<label for="privacy" class="form__checkbox-label">I accept the
+					<a href="#" target="_blank" class="form__privacy-links">terms and comditions</a>
+						and the
+						<a href="#" target="_blank" class="form__privacy-links">Privacy Policies</a>
+				</label>
+			</div>
+		</fieldset>
+
+		<fieldset class="form__buttons">
+			<div class="form__back-link">
+				<a class="back-link">Back</a>
+			</div>
+
+			<div class="form__checkout-button">
+				<button class="checkout">Check out</button>
+			</div>
+		</fieldset>
+	</form>
+</div>

@@ -1,9 +1,39 @@
 .wrapper {
 	position: relative;
+	display: grid;
+	grid-template-rows: 81px 1fr;
+	grid-template-columns: 1fr;
+
+	@media (min-width: 1200px) {
+		grid-template-rows: 81px 1fr;
+		grid-template-columns: 1fr 410px;
+	}
 }
 
 .container {
-	max-width: 980px;
-	margin: auto;
+	position: relative;
 	box-sizing: content-box;
+}
+
+.header {
+	grid-column: 1 / 2;
+
+	@media (min-width: 1200px) {
+		grid-column: 1 / 3;
+	}
+}
+
+.checkout {
+	grid-column: 1 / 2;
+}
+
+.sidebar {
+	display: none;
+
+	@media (min-width: 1200px) {
+		display: block;
+		grid-column: 2 / 3;
+		border-left: 1px solid #cfcfcf;
+		box-sizing: border-box;
+	}
 }

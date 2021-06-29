@@ -8,7 +8,17 @@
 // @import 'controls';
 
 // ======= COMPONENTS =======
-@import '../../components/header/header';
+@import '../../components/header/_header';
+@import '../../components/nav/_nav';
+@import '../../components/search/_search';
+@import '../../components/cart/_cart';
+@import '../../components/timeline/_timeline';
+@import '../../components/form/_form';
+@import '../../components/cardholder/_cardholder';
+@import '../../components/basket/_basket';
+@import '../../components/item/item';
+@import '../../components/promo/_promo';
+@import '../../components/costs/_costs';
 @import '../../components/button/button';
 
 // ======= PAGES =======

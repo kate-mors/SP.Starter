@@ -1,0 +1,7 @@
+<div class="header__cart cart">
+	<button class="cart__toggle">
+		<svg class="cart__icon" aria-label="Cart icon." width="30" height="27">
+			<use xlink:href="#icon-cart"></use>
+		</svg>
+	</button>
+</div>

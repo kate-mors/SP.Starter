@@ -1,0 +1,26 @@
+<div class="form__card-details cardholder">
+			<div class="cardholder__name">
+				<label class="cardholder__label" for="name">Name on card</label>
+				<input class="cardholder__input" type="text" id="name" placeholder="Plaseholder Text" required>
+			</div>
+			<div class="cardholder__card-number">
+				<label class="cardholder__label" for="card-number">Card number</label>
+				<div class="cardholder__input-group">
+					<input class="cardholder__input" type="number" id="card-number" required>
+					<input class="cardholder__input" type="number" required>
+					<input class="cardholder__input" type="number" required>
+					<input class="cardholder__input" type="number" required>
+				</div>
+			</div>
+			<div class="cardholder__card-expire">
+				<label class="cardholder__label" for="card-expire">Expire date</label>
+				<input class="cardholder__input" type="number" id="card-expire" required>
+			</div>
+			<div class="cardholder__card-cvv">
+				<label class="cardholder__label" for="card-cvv">CVV code</label>
+				<a class="cardholder-popup">
+					<span>?</span>
+				</a>
+				<input class="cardholder__input" type="number" id="card-cvv" max="3" required>
+			</div>
+		</div>

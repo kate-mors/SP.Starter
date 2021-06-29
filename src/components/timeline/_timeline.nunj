@@ -1,0 +1,30 @@
+<ol class="timeline">
+	<li class="timeline__item">
+		<div class="timeline__number">
+			<span>1</span>
+		</div>
+		<p>Account</p>
+	</li>
+	<li class="timeline__item">
+		<div class="timeline__number">
+			<span>2</span>
+		</div>
+		<p>Shipping</p>
+	</li>
+	<li class="timeline__item">
+		<div class="timeline__number">
+			<span>3</span>
+		</div>
+		<p>Billing</p>
+	</li>
+	<li class="timeline__item">
+		<div class="timeline__number">
+			<span>4</span>
+		</div>
+		<p>Review</p>
+	</li>
+</ol>
+<div class="timeline__line">
+	<div class="timeline__blue"></div>
+	<div class="timeline__grey"></div>
+</div>

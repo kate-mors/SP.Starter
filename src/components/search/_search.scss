@@ -1,0 +1,21 @@
+.search__toggle {
+	position: relative;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	border: none;
+	background-color: #ffffff;
+}
+
+.search__icon {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+}
+
+.search__input {
+	display: none;
+}

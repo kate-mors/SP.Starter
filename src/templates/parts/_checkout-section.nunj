@@ -1,0 +1,10 @@
+<section class="checkout">
+		<h2 class="visually-hidden invisible-container">Check-out procedure</h2>
+		<div class="container">
+
+  		{% include '../../components/timeline/_timeline.nunj' %}
+
+			{% include '../../components/form/_form.nunj' %}
+
+		</div>
+	</section>

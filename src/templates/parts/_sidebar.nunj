@@ -1,0 +1,8 @@
+<aside class="sidebar">
+
+	{% include '../../components/basket/_basket.nunj' %}
+
+	{% include '../../components/promo/_promo.nunj' %}
+
+	{% include '../../components/costs/_costs.nunj' %}
+</aside>

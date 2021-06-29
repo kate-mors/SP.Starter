@@ -1,0 +1,16 @@
+<header class="header">
+	<div class="header__wrapper">
+		<div class="header__logo-wrapper">
+			<svg class="header__logo" aria-label="Page logo." width="89" height="32">
+				<use xlink:href="#icon-logo"></use>
+			</svg>
+		</div>
+
+		{% include '../nav/_nav.nunj' %}
+
+		{% include '../search/_search.nunj' %}
+
+		{% include '../cart/_cart.nunj' %}
+
+	</div>
+</header>

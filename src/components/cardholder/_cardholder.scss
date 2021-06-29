@@ -1,0 +1,113 @@
+.cardholder {
+	width: 550px;
+	height: 298px;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 160px 1fr;
+	border: 1px solid #cfcfcf;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+}
+
+.cardholder__label {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 24px;
+	color: #555770;
+}
+
+.cardholder__input {
+	width: 100%;
+	height: 40px;
+	padding: 8px 10px;
+	color: #8e90a6;
+	background-color: #ededf1;
+	opacity: 1;
+	border-radius: 3px;
+	border: none;
+	box-sizing: border-box;
+}
+
+.cardholder__input-group {
+	display: grid;
+	grid-template-columns: repeat(4, auto);
+}
+
+.cardholder__name {
+	width: 490px;
+	height: 64px;
+	margin: 20px 30px 0;
+	display: flex;
+	flex-direction: column;
+	grid-row: 1 / 2;
+	grid-column: 1 / 2;
+}
+
+.cardholder__card-number {
+	width: 490px;
+	height: 64px;
+	margin: 5px 30px 0;
+	display: flex;
+	flex-direction: column;
+	grid-row: 2 / 3;
+	grid-column: 1 / 3;
+}
+
+.cardholder__card-expire {
+	height: 64px;
+	margin: -10px 30px 0;
+	display: flex;
+	flex-direction: column;
+	grid-row: 3 / 4;
+	grid-column: 1 / 2;
+}
+
+.cardholder__card-cvv {
+	position: relative;
+	height: 64px;
+	margin: -10px 0 0;
+	grid-row: 3 / 4;
+	grid-column: 2 / 3;
+	display: flex;
+	flex-direction: column;
+}
+
+.cardholder__card-number input {
+	width: 99px;
+
+	&:not(:last-child) {
+		margin-right: 30px;
+	}
+}
+
+.cardholder__card-expire,
+.cardholder__card-expire input,
+.cardholder__card-cvv,
+.cardholder__card-cvv input {
+	width: 99px;
+}
+
+.cardholder-popup {
+	position: absolute;
+	top: 5px;
+	left: 58px;
+	width: 13px;
+	height: 13px;
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	text-decoration: none;
+	background-color: #dbdbdb;
+	border-radius: 50%;
+}
+
+.cardholder-popup span {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 13px;
+	letter-spacing: 0.2px;
+	color: #000000;
+}

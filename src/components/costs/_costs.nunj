@@ -1,0 +1,20 @@
+<div class="costs">
+		<table class="costs__table">
+			<tr class="costs__table-row">
+				<td class="costs__name">Subtotal</td>
+				<td class="costs__sum">$1 050</td>
+			</tr>
+			<tr class="costs__table-row">
+				<td class="costs__name">Tax</td>
+				<td class="costs__sum">$100</td>
+			</tr>
+			<tr class="costs__table-row">
+				<td class="costs__name">Shipping</td>
+				<td class="costs__sum">$150</td>
+			</tr>
+			<tr class="costs__table-row">
+				<td class="costs__name">Total</td>
+				<td class="costs__sum">$1 300</td>
+			</tr>
+		</table>
+	</div>

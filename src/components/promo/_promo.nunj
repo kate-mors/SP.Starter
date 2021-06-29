@@ -1,0 +1,7 @@
+<div class="promo">
+	<h2 class="promo__title">Promo code</h2>
+	<form class="promo__form">
+		<input class="promo__input" type="number" placeholder="Plaseholder Text">
+		<button class="promo__submit" type="submit">Apply</button>
+	</form>
+</div>

@@ -1,0 +1,15 @@
+<div class="basket">
+		<h2 class="basket__title">My basket</h2>
+		<ul class="basket__list">
+			<li class="basket__item item">
+
+				{% include '../../components/item/_item.nunj' %}
+
+			</li>
+			<li class="basket__item item">
+
+				{% include '../../components/item/_item.nunj' %}
+
+			</li>
+		</ul>
+	</div>
